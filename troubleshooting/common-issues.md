@@ -2,24 +2,22 @@
 
 This project involved troubleshooting AWS infrastructure and application issues during implementation.
 
-## 1. EC2 Instance Health
+## 1. EC2 Instance Initialization
 
-### Problem
+### Observation
 
-An EC2 instance initially showed an initializing or unhealthy status.
+A newly launched EC2 instance initially showed an initializing status while AWS completed the instance startup and status checks.
 
-### Troubleshooting
+### Checks Performed
 
-Checked:
-
-- EC2 instance status checks
-- Instance state
-- Security Group configuration
+- EC2 instance state
+- System status checks
+- Instance status checks
 - Application availability
 
-### Resolution
+### Result
 
-Verified the instance status checks and application availability before using the instance as an application target.
+After the initialization completed, the instance reached a healthy state and was available for use by the application infrastructure.
 
 ---
 
