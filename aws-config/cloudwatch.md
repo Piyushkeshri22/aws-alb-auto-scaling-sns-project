@@ -18,7 +18,7 @@ The Auto Scaling Group uses a Target Tracking policy with a target average CPU u
 
 ## Alarms
 
-CloudWatch alarms associated with the Target Tracking configuration provide visibility into scaling conditions.
+CloudWatch alarms associated with the Target Tracking scaling policy provide visibility into the conditions used by Auto Scaling.
 
 ![CloudWatch Alarms](../screenshots/07-cloudwatch-alarms.png)
 
