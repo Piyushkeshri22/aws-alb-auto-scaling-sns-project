@@ -45,3 +45,12 @@ Auto Scaling Group
        +----> Launch EC2 instance
        |
        +----> Reduce EC2 capacity
+```
+
+## Related Components
+
+- Application Load Balancer
+- Target Group
+- Launch Template
+- EC2
+- CloudWatch
